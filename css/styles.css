@@ -311,6 +311,9 @@ button {
 }
 .team-item {
   background-color: var(--white-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 
 /* TEAM */
@@ -403,7 +406,26 @@ button {
 /* ========= PORTFOLIO =========== */
 
 /* ==== HEADER PORTFOLIO ==== */
+
+.header-page {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+/* LOGO */
+
 .trademark-link {
+  margin-right: 76px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
   color: var(--main-color);
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -414,6 +436,8 @@ button {
   text-transform: uppercase;
 }
 .trademark-dark {
+  align-items: center;
+
   color: var(--primary-color);
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -423,9 +447,60 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+/* NAVIGATION */
+
+.nav-main {
+  display: flex;
+  margin-right: auto;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list .item {
+  margin-right: 40px;
+}
+
+.nav-list .item:last-child {
+  margin-right: 0;
+}
+
+.nav-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-right: 40px;
+  align-items: center;
+
+  color: var(--primary-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--alternative-color);
+}
+
 /* ==== BUTTONS AND PICTURES ==== */
 
+.btn-img-list {
+  display: flex;
+  align-items: center;
+}
+
+.portfolio-button:first-child {
+  margin-left: o;
+}
+
 .button {
+  margin-top: 96px;
+  margin-right: 24px;
+  align-items: center;
+  border: 1px solid transparent;
   color: var(--main-color);
   background: #f4f4fd;
   cursor: pointer;
@@ -444,7 +519,30 @@ button {
 }
 
 /* ==== PROJECTS ==== */
+
+.project-container {
+  margin-top: 72px;
+  margin-bottom: 120px;
+}
+
+.project-item {
+  width: calc((100% - (20px * 2)) / 3);
+}
+
+.project-wraper {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  width: 326px;
+}
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 .project-name {
+  margin-bottom: 8px;
   color: var(--primary-color);
   font-weight: 500;
   font-size: 20px;
