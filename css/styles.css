@@ -1,3 +1,9 @@
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--contacts-color);
@@ -54,15 +60,10 @@ button {
   margin-right: auto;
   align-items: center;
 }
+
 /* ==== reset ends ==== */
 
 /* ==== HEADER ==== */
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
 
 .header-page {
   display: flex;
@@ -473,10 +474,7 @@ img {
 
 .nav-list {
   display: flex;
-}
-
-.nav-list .item {
-  margin-right: 40px;
+  gap: 40px;
 }
 
 .nav-list .item:last-child {
