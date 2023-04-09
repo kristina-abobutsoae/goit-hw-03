@@ -4,6 +4,12 @@ body {
   background-color: var(--white-color);
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 :root {
   --main-color: #4d5ae5;
   --primary-color: #2e2f42;
