@@ -23,7 +23,7 @@ h6,
 p {
   margin: 0;
 }
-img {
+.img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -234,11 +234,16 @@ button {
 
 .second-sec-list {
   display: flex;
+  gap: 24px;
 }
 
 .second-sec {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.second-sec-item {
+  width: calc((100% - 72px) / 4);
 }
 
 /* SECOND TITLE */
@@ -253,7 +258,6 @@ button {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  width: calc((100% - 72px) / 4);
 }
 
 /* SECOND TEXT */
@@ -309,7 +313,7 @@ button {
 
 .fourth-sec {
   background: #f4f4fd;
-  padding-top: 120px;
+  padding: 120px 0;
 }
 .team-item {
   background-color: var(--white-color);
@@ -457,6 +461,7 @@ button {
   display: flex;
   margin-right: auto;
   align-items: center;
+  gap: 40px;
 }
 
 .nav-list {
@@ -527,7 +532,7 @@ button {
 /* ==== BUTTONS AND PICTURES ==== */
 
 .btn-img {
-  padding: 96px 120px 96px;
+  padding: 96px 0 120px;
 }
 
 .btn-img-list {
@@ -568,19 +573,25 @@ button {
 
 /* ==== PROJECTS ==== */
 
+.project {
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
 .project-container {
   margin-top: 72px;
   margin-bottom: 120px;
 }
 
 .project-item {
-  width: calc((100% - (20px * 2)) / 3);
+  width: calc((100% - 48px) / 3);
+  border: 1px solid #e7e9fc;
 }
 
 .project-wraper {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
   width: 326px;
+  border-top: none;
 }
 
 .project {
