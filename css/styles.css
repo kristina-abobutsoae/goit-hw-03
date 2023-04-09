@@ -14,12 +14,6 @@ body {
 
 /* ==== reset start ==== */
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 h1,
 h2,
 h3,
@@ -60,10 +54,15 @@ button {
   margin-right: auto;
   align-items: center;
 }
-
 /* ==== reset ends ==== */
 
 /* ==== HEADER ==== */
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 .header-page {
   display: flex;
