@@ -532,6 +532,10 @@ button {
 
 /* ==== BUTTONS AND PICTURES ==== */
 
+.buttons-container {
+  border: 1px solid #e7e9fc;
+}
+
 .btn-img {
   padding: 96px 0 120px;
 }
@@ -574,11 +578,6 @@ button {
 
 /* ==== PROJECTS ==== */
 
-.project {
-  column-gap: 24px;
-  row-gap: 48px;
-}
-
 .project-item {
   width: calc((100% - 48px) / 3);
   border: 1px solid #e7e9fc;
@@ -594,6 +593,8 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .project-name {
