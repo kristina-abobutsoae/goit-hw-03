@@ -412,6 +412,10 @@ button {
 
 /* ==== HEADER PORTFOLIO ==== */
 
+.img {
+  display: block;
+}
+
 .header-page {
   display: flex;
   align-items: center;
@@ -573,11 +577,6 @@ button {
 .project {
   column-gap: 24px;
   row-gap: 48px;
-}
-
-.project-container {
-  margin-top: 72px;
-  margin-bottom: 120px;
 }
 
 .project-item {
