@@ -68,9 +68,6 @@ img {display: block;}
 /* ==== HEADER ==== */
 
 .header-page {
-  display: flex;
-  align-items: center;
-  background: #ffffff;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -83,8 +80,8 @@ img {display: block;}
 
 .trademark-link {
   margin-right: 76px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 
   color: var(--main-color);
   font-family: "Raleway", sans-serif;
@@ -162,6 +159,7 @@ img {display: block;}
 
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 
 .contact {
@@ -426,9 +424,6 @@ img {
   height: auto;
 }
 .header-page {
-  display: flex;
-  align-items: center;
-  background: #ffffff;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -441,8 +436,8 @@ img {
 
 .trademark-link {
   margin-right: 76px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 
   color: var(--main-color);
   font-family: "Raleway", sans-serif;
@@ -471,7 +466,6 @@ img {
   display: flex;
   margin-right: auto;
   align-items: center;
-  gap: 40px;
 }
 
 .nav-list {
