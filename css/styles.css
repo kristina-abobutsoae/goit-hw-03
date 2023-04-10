@@ -68,6 +68,9 @@ img {display: block;}
 /* ==== HEADER ==== */
 
 .header-page {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -424,6 +427,9 @@ img {
   height: auto;
 }
 .header-page {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
   border-bottom: 1px solid #e7e9fc;
 }
 
