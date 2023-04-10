@@ -13,6 +13,12 @@ body {
   background-color: var(--white-color);
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* ==== reset start ==== */
 
 h1,
@@ -45,12 +51,6 @@ button {
   font-family: inherit;
   color: currentColor;
   cursor: pointer;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 .hidden {
