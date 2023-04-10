@@ -1,15 +1,16 @@
-body {
-  font-family: "Roboto", sans-serif;
-  color: var(--contacts-color);
-  background-color: var(--white-color);
-}
-
 :root {
   --main-color: #4d5ae5;
   --primary-color: #2e2f42;
   --white-color: #ffffff;
   --alternative-color: #404bbf;
   --contacts-color: #434455;
+}
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--contacts-color);
+  background-color: var(--white-color);
 }
 
 /* ==== reset start ==== */
@@ -425,11 +426,6 @@ img {
 
 /* ==== HEADER PORTFOLIO ==== */
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
 .header-page {
   display: flex;
   align-items: center;
