@@ -19,7 +19,7 @@ img {
   height: auto;
 }
 
-.hidden-feature {
+.visually-feature {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -598,16 +598,6 @@ button {
   letter-spacing: 0.02em;
 }
 /* ==== FOOTER ==== */
-.footer-link {
-  color: var(--main-color);
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
 .logo-footer {
   color: #f4f4fd;
   font-family: "Raleway", sans-serif;
